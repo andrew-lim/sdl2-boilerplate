@@ -12,7 +12,7 @@
  https://www.libsdl.org/release/SDL2-2.0.10.dmg
  
  Author: Andrew Lim Chong Liang
- https://windrealm.net
+ https://github.com/andrew-lim/sdl2-boilerplate
  */
 #include <SDL2/SDL.h>
 #include <cstdio>
