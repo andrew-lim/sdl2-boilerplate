@@ -2,10 +2,16 @@
  SDL2 example that allows user to move an object using arrow keys.
  This is meant to be used as a convenient single-file starting point for
  more complex projects.
- 
+
+ Latest known stable release:
+ https://github.com/libsdl-org/SDL/releases/tag/release-2.32.2
+
  Windows / MinGW / Code::Blocks
  Linker settings (in Code::Blocks under Project->Build Options...)
  -lmingw32 -lSDL2main -lSDL2
+
+ Use the files inside i686-w64-mingw32 to compile for 32-bit.
+ Use the files inside x86_64-w64-mingw32 to compile for 64-bit.
  
  OSX + XCode
  Download DMG file and copy the SDL2.framework to /Library/Frameworks
@@ -13,7 +19,10 @@
  
  Author: Andrew Lim Chong Liang
  https://github.com/andrew-lim/sdl2-boilerplate
- */
+*/
+
+// Assumes your compiler include path is set to search inside one of SDL2's
+// include folders. E.g. ..\SDL2-2.32.2\i686-w64-mingw32\include
 #include <SDL2/SDL.h>
 #include <cstdio>
 #include <map>
